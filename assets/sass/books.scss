@@ -1,0 +1,114 @@
+@import "color";
+
+.portfolio {
+
+  .portfolio-block {
+    padding: 0 0 10px 10px;
+
+    figure {
+      position: relative;
+      z-index: 1;
+      display: inline-block;
+      overflow: hidden;
+      background: #272727;
+      text-align: center;
+      cursor: pointer;
+
+      figcaption {
+        width: 100%;
+        color: #fff;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        position: absolute;
+        bottom: 0;
+        text-align: left;
+
+        .description {
+          padding: 7% 2%;
+          position: relative;
+          z-index: 10;
+          transition: all .55s ease-in-out;
+
+          h3 {
+            opacity: 0;
+            padding: 0px 15px 7px 25px;
+            font-weight: 300;
+            margin: 0;
+            transition: all .55s ease-in-out;
+
+            a {
+              text-align: left;
+              font-size: 17px;
+              font-weight: 400;
+              word-break: break-word;
+              color: #fff;
+              &:hover {
+                opacity: .7;
+              }
+            }
+          }
+
+          p {
+            padding: 0px 15px 0px 25px;
+            opacity: 0;
+            letter-spacing: 1px;
+            transition: all .55s ease-in-out;
+
+            a {
+              text-align: left;
+              font-size: 13px;
+              font-weight: 400;
+              word-break: break-word;
+              color: #fff;
+              &:hover {
+                opacity: .7;
+              }
+            }
+          }
+        }
+
+        &:after {
+          opacity: 0;
+          display: block;
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          -webkit-transition: all .35s ease-in-out;
+          -o-transition: all .35s ease-in-out;
+          transition: all .35s ease-in-out;
+          content: '';
+          box-shadow: 0 0 150px 100px rgba(1, 1, 1, 0.8);
+        }
+      }
+
+      img {
+        height: 220px;
+        object-fit: cover;
+        position: relative;
+        display: block;
+        width: 170px;
+      }
+
+      &:hover {
+        figcaption {
+          &:after {
+            opacity: 1;
+          }
+
+          .description {
+            opacity: 1;
+
+            p, h3 {
+              opacity: 1;
+            }
+          }
+        }
+
+        img {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+}

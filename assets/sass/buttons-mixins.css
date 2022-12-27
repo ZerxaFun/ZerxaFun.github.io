@@ -1,0 +1,32 @@
+.btn {
+  font-size: 0.9333em;
+  font-weight: normal;
+  text-transform: none;
+  text-decoration: none;
+  margin: 0 10px 10px 0;
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 9px 20px 10px;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  user-select: none;
+  background-color: #034638;
+  border-color: #034638;
+  color: #ffffff;
+}
+.btn:hover, .btn:focus, .btn:active {
+  background-color: #04634f;
+  border-color: #04634f;
+  color: #fff;
+}
+
+/*# sourceMappingURL=buttons-mixins.css.map */

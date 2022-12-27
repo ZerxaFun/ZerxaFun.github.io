@@ -1,0 +1,55 @@
+@mixin button {
+  font-size: 0.9333em;
+  font-weight: normal;
+  text-transform: none;
+  text-decoration: none;
+  margin: 0 10px 10px 0;
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 9px 20px 10px;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  user-select: none;
+
+}
+
+@mixin button-classic-hover {
+  &:hover, &:focus, &:active {
+    background-color: #04634f;
+    border-color: #04634f;
+    color: #fff;
+  }
+}
+@mixin button-green {
+  border: 1px solid #034638;
+  @include button;
+  color: #034638;
+  padding: 12px 19px 13px;
+  margin: 0;
+  font-size: 0.73em;
+  line-height: 0.85em;
+  font-weight: normal;
+  @include button-classic-hover;
+}
+
+
+@mixin button-classic {
+  @include button;
+  @include button-classic-hover;
+  background-color: #034638;
+  border-color: #034638;
+  color: #ffffff;
+}
+
+.btn {
+  @include button-classic;
+}

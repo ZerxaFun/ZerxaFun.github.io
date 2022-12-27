@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  font: 15px/24px "Helvetica Neue LT GEO 55 Roman", -apple-system, blinkmacsystemfont, "segoe ui", roboto, "oxygen-sans", ubuntu, cantarell, "helvetica neue", helvetica, arial, sans-serif;
+  background-color: #f3f3f3;
+  color: #555;
+  min-width: 375px;
+  width: 100%;
+  height: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+input[type=text]::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+input[type=text]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+a {
+  transition: color 0.3s ease;
+  text-decoration: none;
+  outline: none;
+
+  &:hover {
+    text-decoration: none;
+    outline: none;
+  }
+
+  &:focus {
+    text-decoration: none;
+    outline: none;
+  }
+
+  &:active {
+    text-decoration: none;
+    outline: none;
+  }
+}

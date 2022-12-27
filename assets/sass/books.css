@@ -1,0 +1,176 @@
+/**
+Buttons color
+ */
+.color-red {
+  color: #fd3635 !important;
+}
+
+.color-pink {
+  color: #fd40b3 !important;
+}
+
+.color-orange {
+  color: #ff8b34 !important;
+}
+
+.color-purple {
+  color: #a85ad4 !important;
+}
+
+.color-blue {
+  color: #3dace1 !important;
+}
+
+.color-cyan {
+  color: #1abc9c !important;
+}
+
+.color-green {
+  color: #b2cc71 !important;
+}
+
+.color-yellow {
+  color: #ffc501 !important;
+}
+
+.color-light {
+  color: #ffffff !important;
+}
+
+.color-white {
+  color: #ffffff !important;
+}
+
+.color-gray {
+  color: #f5f7f9 !important;
+}
+
+.color-gray2 {
+  color: #e0e0e0 !important;
+}
+
+.color-dark {
+  color: #5f6467 !important;
+}
+
+.color-dark2 {
+  color: #323a45 !important;
+}
+
+.color-black {
+  color: #111111 !important;
+}
+
+.color-primary {
+  color: #337ab7 !important;
+}
+
+.color-success {
+  color: #5cb85c !important;
+}
+
+.color-info {
+  color: #5bc0de !important;
+}
+
+.color-warning {
+  color: #f0ad4e !important;
+}
+
+.color-danger {
+  color: #d9534f !important;
+}
+
+.portfolio .portfolio-block {
+  padding: 0 0 10px 10px;
+}
+.portfolio .portfolio-block figure {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  overflow: hidden;
+  background: #272727;
+  text-align: center;
+  cursor: pointer;
+}
+.portfolio .portfolio-block figure figcaption {
+  width: 100%;
+  color: #fff;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  text-align: left;
+}
+.portfolio .portfolio-block figure figcaption .description {
+  padding: 7% 2%;
+  position: relative;
+  z-index: 10;
+  transition: all 0.55s ease-in-out;
+}
+.portfolio .portfolio-block figure figcaption .description h3 {
+  opacity: 0;
+  padding: 0px 15px 7px 25px;
+  font-weight: 300;
+  margin: 0;
+  transition: all 0.55s ease-in-out;
+}
+.portfolio .portfolio-block figure figcaption .description h3 a {
+  text-align: left;
+  font-size: 17px;
+  font-weight: 400;
+  word-break: break-word;
+  color: #fff;
+}
+.portfolio .portfolio-block figure figcaption .description h3 a:hover {
+  opacity: 0.7;
+}
+.portfolio .portfolio-block figure figcaption .description p {
+  padding: 0px 15px 0px 25px;
+  opacity: 0;
+  letter-spacing: 1px;
+  transition: all 0.55s ease-in-out;
+}
+.portfolio .portfolio-block figure figcaption .description p a {
+  text-align: left;
+  font-size: 13px;
+  font-weight: 400;
+  word-break: break-word;
+  color: #fff;
+}
+.portfolio .portfolio-block figure figcaption .description p a:hover {
+  opacity: 0.7;
+}
+.portfolio .portfolio-block figure figcaption:after {
+  opacity: 0;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  content: "";
+  box-shadow: 0 0 150px 100px rgba(1, 1, 1, 0.8);
+}
+.portfolio .portfolio-block figure img {
+  min-height: 290px;
+  object-fit: cover;
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.portfolio .portfolio-block figure:hover figcaption:after {
+  opacity: 1;
+}
+.portfolio .portfolio-block figure:hover figcaption .description {
+  opacity: 1;
+}
+.portfolio .portfolio-block figure:hover figcaption .description p, .portfolio .portfolio-block figure:hover figcaption .description h3 {
+  opacity: 1;
+}
+.portfolio .portfolio-block figure:hover img {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=books.css.map */
