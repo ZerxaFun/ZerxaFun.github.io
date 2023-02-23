@@ -1,0 +1,39 @@
+section.welcome .container .row .img-card .about-one__left {
+  position: relative;
+  display: block;
+  margin-right: 30px;
+}
+section.welcome .container .row .img-card .about-one__left .about-one__img-box {
+  position: relative;
+  display: block;
+}
+section.welcome .container .row .img-card .about-one__left .about-one__img-box .about-one__img {
+  position: relative;
+  display: block;
+}
+section.welcome .container .row .img-card .about-one__left .about-one__img-box .about-one__img img {
+  width: 100%;
+  border-radius: 20px;
+  height: auto;
+  max-width: 100%;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+section.welcome .container .row .img-card .about-one__left .about-one__img-box .about-one__img-two {
+  position: absolute;
+  bottom: -105px;
+  left: -80px;
+}
+section.welcome .container .row .img-card .about-one__left .slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+}
+section.welcome .container .row .img-card .about-one__left .animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/*# sourceMappingURL=home.css.map */

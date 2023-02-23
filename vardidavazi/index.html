@@ -1,0 +1,929 @@
+<!doctype html>
+
+<!--
+1. Добро пожаловать.
+2. Цель масонства
+3. Ценности
+4. БЛАГОТВОРИТЕЛЬНОСТЬ
+5. НАША ИСТОРИЯ
+6. Записи блога
+7. Контакты, переход
+8. События
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=0.8, minimum-scale=0.8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="fa/css/all.min.css">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/rbtools.min.js"></script>
+    <script src="js/rs6.min.js"></script>
+
+
+    <style>
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+<div class="header-blur header-blurs">
+    <div class="header-banner visible-lg">
+        <div class="container">
+            <div class="row" style="padding-top:10px;">
+                <div class="col-sm">
+                    <ul class="prev-text">
+                        <li>
+                            <i class="fa-light fa-phone"></i>
+                            <a href="tel:+123-456-7890">+123-456-7890</a>
+
+                        </li>
+                        <li>
+                            <i class="fa-light fa-envelope"></i>
+                            <a href="mailto:info@yoursite.com?subject=Feedback&amp;body=Message">
+                                info@yoursite.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm" style="text-align: center">
+                    <a href="/">
+                        <img style="width: 130px;" src="images/logo.svg">
+                    </a>
+                </div>
+                <div class="col-sm" style="text-align: left">
+
+                    <div class="phone-block">
+
+                        <div class="phone-block">
+
+                            <div class="right">
+                                <div class="langSelector">
+                                    <div class="langSelectorHeader">
+                                        <b class="langSelectorTitle">
+                                    <span class="langSelectorListNameFlag">
+        <i class="fa-light fa-globe"></i>
+    </span>
+                                            <abbr class="langSelectorListNameLabel" title="Russian">Русский</abbr> <i
+                                                class="fa fa-caret-down" aria-hidden="true"></i>
+                                        </b>
+                                    </div>
+                                    <div class="langSelectorBody">
+                                        <ul class="langSelectorList">
+
+                                            <li class="langSelectorListItem">
+                                                <a class="langSelectorListName" href="?lang=en">
+                                        <span class="langSelectorListNameFlag">
+                                            <img src="//upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/200px-Flag_of_the_United_Kingdom.svg.png"
+                                                 alt="Flag of United Kingdom">
+                                        </span>
+                                                    <abbr class="langSelectorListNameLabel"
+                                                          title="English">English</abbr>
+                                                </a>
+                                            </li>
+
+                                            <li class="langSelectorListItem">
+                                                <a class="langSelectorListName" href="?lang=ru">
+                                        <span class="langSelectorListNameFlag">
+                                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/150px-Flag_of_Russia.svg.png"
+                                                 alt="Flag of Russian">
+                                        </span>
+                                                    <abbr class="langSelectorListNameLabel"
+                                                          title="Russian">Русский</abbr>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="call right">
+                                    <div id="call-button" class="button">
+                                        Связатся с нами
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="opacity-1">
+        <div class="container">
+            <div class="row">
+                <nav class="navigation navigation-landscape" id="navigation">
+                    <div class="nav-header">
+                        <div class="nav-toggle"></div>
+                        <div class="logo-mobile hidden hidden-lg">
+                            <h1>
+                                <a href="/" title="">
+                                    <img src="images/logo.svg">
+                                </a>
+                            </h1>
+                        </div>
+                    </div>
+
+
+                    <div class="nav-menus-wrapper" style="transition-property: none;">
+
+                        <div class="nav-menu">
+                            <div class="logo-sm-om">
+                                <a href="/" title="WorldMarketing">
+                                    <img width="55px" src="images/logo.svg">
+                                </a>
+                            </div>
+                            <ul class="nav-menu">
+                                <li class="menu-item active  menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4840 current_page_item menu-item-5077">
+                                    <a href="" aria-current="page">Главная</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4840 current_page_item menu-item-5077">
+                                    <a href="" aria-current="page">О нас</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4840 current_page_item menu-item-5077">
+                                    <a href="" aria-current="page">Что такое масонство?</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4840 current_page_item menu-item-5077">
+                                    <a href="" aria-current="page">Стать масоном</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4840 current_page_item menu-item-5077">
+                                    <a href="" aria-current="page">Новости</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4840 current_page_item menu-item-5077">
+                                    <a href="" aria-current="page">Расписание мероприятий</a>
+                                </li>
+                            </ul>
+                            <div class="mobile-content">
+                                <div class="phone">
+                                    <div class="phone-number">
+                                        <i class="fa-light fa-phone"></i>
+                                        <a href="tel:+1234567890">+1234567890</a>
+                                    </div>
+                                    <div class="job">
+                                        Пн. – Пт.: с 9:00 до 18:00
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </nav>
+            </div>
+        </div>
+
+    </header>
+</div>
+
+<!-- Header Slider Start -->
+<section class="slider">
+    <rs-module-wrap id="rev_slider_1_1_wrapper" data-alias="slider-1" data-source="gallery"
+                    style="visibility:hidden;background:transparent;padding:0;">
+
+        <rs-module id="rev_slider_1_1" style="" data-version="6.5.14">
+            <rs-slides>
+
+                <rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide"
+                          data-thumb="images/bg/slide_2.jpg" data-duration="18000ms" data-anim="adpr:false;ms:10;"
+                          data-in="o:1;" data-out="a:false;">
+                    <div class="rs-slide-bg"></div>
+                    <img decoding="async" src="images/bg/slide_2.jpg" alt="" title="images/bg/slide_2.jpg"
+                         width="1920"
+                         height="980" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="images/bg/slide_2.jpg"
+                         data-parallax="off" data-no-retina>
+                    <a id="slider-3-slide-9-layer-1"
+                       class="rs-layer rev-btn"
+                       href="" target="_blank" rel="noopener"
+                       data-type="button"
+                       data-xy="xo:125px,260px,20px,10px;yo:620px,560px,560px,549px;"
+                       data-text="w:normal;s:17;l:40;fw:500;"
+                       data-dim="minh:0px,none,none,none;"
+                       data-rsp_o="off"
+                       data-rsp_bd="off"
+                       data-padding="r:25;l:25;"
+                       data-border="bos:solid;boc:rgba(255,255,255,0.35);bow:1px,1px,1px,1px;"
+                       data-frame_1="st:1200;sR:1200;"
+                       data-frame_999="o:0;st:w;sR:5500;"
+                       data-frame_hover="bgc:rgba(0,0,0,0);boc:rgba(255,255,255,0.75);bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;e:power1.inOut;"
+                       style="z-index:11;background-color:rgba(0,0,0,0);font-family:'Arial';"
+                    >Go to this Page
+                    </a>
+                    <rs-layer
+                            id="slider-3-slide-9-layer-3"
+                            data-type="text"
+                            data-color="rgba(255, 255, 255, 1)"
+                            data-rsp_ch="on"
+                            data-xy="xo:130px,230px,20px,10px;yo:400px;"
+                            data-text="s:50;l:22;"
+                            data-frame_1="e:power2.inOut;st:1200;sR:1200;"
+                            data-frame_999="o:0;e:power2.in;st:w;sR:5500;"
+                            style="z-index:8;font-family:'Oswald';"
+                    >The home of <span style="color: #C19A5B">Freemasonry</span>
+                    </rs-layer>
+                    <rs-layer
+                            id="slider-3-slide-9-layer-4"
+                            class="tp-shape tp-shapewrapper"
+                            data-type="shape"
+                            data-rsp_ch="on"
+                            data-xy="xo:130px;yo:440px;"
+                            data-text="w:normal;"
+                            data-dim="w:80px;h:0px;"
+                            data-border="bos:solid;boc:rgba(255, 255, 255, 1);bow:1px,1px,1px,1px;"
+                            data-frame_1="e:power2.inOut;st:1200;sR:1200;"
+                            data-frame_999="o:0;e:power2.in;st:w;sR:5500;"
+                            style="z-index:9;"
+                    >
+                    </rs-layer>
+                    <rs-layer
+                            id="slider-737-slide-1485-layer-4"
+                            data-type="text"
+                            data-rsp_ch="on"
+                            data-xy="xo:130px;yo:450px;"
+                            data-text="w:normal;s:18,24,24,20;l:28,35,35,30;ls:0px,0px,0px,0px;fw:500;a:left,left,left,center;"
+                            data-dim="w:500px,400px,400px,90%;"
+                            data-frame_0="x:50,46,46,20;"
+                            data-frame_1="st:700;sp:1000;sR:700;"
+                            data-frame_999="x:150px,139px,1=39px,64px;o:0;st:w;sp:500;sR:7300;"
+                            style="z-index:5;letter-spacing: unset;display:inline-block;"
+                    >
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias doloremque eos quod sequi. Atque
+                        autem culpa ea, facilis illo incidunt ipsam labore maxime mollitia quod, reprehenderit, sit
+                        soluta temporibus veniam?
+                    </rs-layer>
+
+
+                </rs-slide>
+
+                <rs-slide style="position: absolute;" data-key="rs-2" data-title="Slide"
+                          data-thumb="images/bg/slide_2.jpg" data-anim="adpr:false;ms:1000ms;" data-in="o:0;"
+                          data-out="a:false;">
+                    <div class="rs-slide-bg"></div>
+                    <img decoding="async" src="images/bg/slide_2.jpg" alt="" title="images/bg/slide_2.jpg"
+                         width="1920"
+                         height="980" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="images/bg/slide_2.jpg"
+                         data-parallax="off" data-no-retina>
+                    <rs-zone id="rrzm_19" class="rev_row_zone_middle" style="z-index: 12;">
+                        <rs-row id="slider-12-slide-19-layer-15" data-type="row" data-xy="xo:50px;yo:50px;"
+                                data-basealign="slide" data-wrpcls="slider-row-wrap" data-rsp_bd="off"
+                                data-margin="l:70,70,30,20;" data-frame_0="o:1;"
+                                data-frame_999="o:0;st:w;sR:8700;sA:9000;" style="z-index:1;">
+                            <rs-column id="slider-12-slide-19-layer-16" data-type="column" data-xy="xo:50px;yo:50px;"
+                                       data-text="l:30,26,26,26;" data-rsp_bd="off" data-column="w:100%;a:bottom;"
+                                       data-frame_0="o:1;" data-frame_999="o:0;st:w;sR:8700;sA:9000;"
+                                       style="z-index:2;width:100%;">
+                                <rs-layer id="slider-12-slide-19-layer-24" data-type="text" data-color="#c19a5b"
+                                          data-xy="" data-pos="r"
+                                          data-text="w:normal;s:110,142,95,60;l:180,122,82,52;ls:-1px;fw:500;"
+                                          data-rsp_o="off" data-disp="inline-block"
+                                          data-frame_0="x:40px,27px,18px,12px;y:0,0px,0px,0px;"
+                                          data-frame_1="x:0,0px,0px,0px;y:0,0px,0px,0px;st:510;sp:1000;sR:510;"
+                                          data-frame_999="o:0;st:w;sR:7490;"
+                                          style="z-index:3;font-family:'EB Garamond';text-transform:uppercase;display:inline-block;">
+                                    The home of
+                                </rs-layer>
+
+                                <rs-layer id="slider-12-slide-19-layer-1" data-type="text" data-color="#c19a5b"
+                                          data-xy="" data-pos="r"
+                                          data-text="w:normal;s:110,142,95,60;l:180,122,82,52;ls:-1px;fw:500;"
+                                          data-rsp_o="off" data-disp="inline-block"
+                                          data-margin="r:300,80,0,0;l:280,224,148,92;"
+                                          data-frame_0="x:40px,27px,18px,12px;y:0,0px,0px,0px;"
+                                          data-frame_1="x:0,0px,0px,0px;y:0,0px,0px,0px;st:680;sp:1000;sR:680;"
+                                          data-frame_999="o:0;st:w;sR:7320;"
+                                          style="z-index:5;font-family:'EB Garamond';text-transform:uppercase;display:inline-block;">
+                                    Freemasonry
+                                </rs-layer>
+                                <rs-layer id="slider-12-slide-19-layer-2" data-type="text" data-xy="" data-pos="r"
+                                          data-text="w:normal;s:25,12,12,10;f:none,none,right,none;l:26,20,20,16;ls:2px;"
+                                          data-flcr="f:none,none,right,none;" data-rsp_bd="off" data-disp="inline-block"
+                                          data-margin="t:50,0,30,30;r:0,0,50,50;b:10,6,6,6;"
+                                          data-frame_0="x:30px,23px,23px,18px;y:0,0px,0px,0px;"
+                                          data-frame_1="x:0,0px,0px,0px;y:0,0px,0px,0px;st:1190;sp:1000;sR:1190;"
+                                          data-frame_999="o:0;st:w;sR:6810;"
+                                          style="z-index:6;font-family:'EB Garamond';text-transform:uppercase;display:inline-block;">
+                                    Liberté, égalité, fraternité
+                                </rs-layer>
+                            </rs-column>
+                        </rs-row>
+                    </rs-zone>
+                </rs-slide>
+            </rs-slides>
+        </rs-module>
+        <script>
+
+        </script>
+    </rs-module-wrap>
+</section>
+
+
+<section class="welcome">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 img-card">
+                <div class="about-one__left">
+                    <div class="about-one__img-box wow slideInLeft animated animated animated animated animated animated animated animated animated" data-wow-delay="100ms" data-wow-duration="2500ms" style="visibility: visible; animation-duration: 2500ms; animation-delay: 100ms;">
+                        <div class="about-one__img">
+                            <img decoding="async" src="images/bg-img/about-1.jpg" alt="alt">
+                        </div>
+                        <div class="about-one__img-two">
+                            <img decoding="async" src="images/bg-img/about-2.jpg" alt="alt">
+                        </div>
+                        <div class="about-one__experience">
+                            <h2 class="about-one__experience-year">1774</h2>
+                            <p class="about-one__experience-text">Дата <br> основания</p>
+                        </div>
+                        <div class="about-one__shape-1">
+                            <img decoding="async" src="images/bg-img/bg-shape.jpg" alt="alt">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-6 img-card">
+                <div class="wrapper-img-block">
+                    <h2>
+                        Lorem ipsum dolor sit amet
+                    </h2>
+
+                    <div class="sher-body">
+                        <h6 class="sher-title">
+                            Liberté, égalité, fraternité
+                        </h6>
+                    </div>
+
+                    <div class="content-cards">
+                        <p>
+                            Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur", и занялся его поисками в классической латинской литературе. В результате он нашёл неоспоримый первоисточник Lorem Ipsum в разделах 1.10.32 и 1.10.33 книги "de Finibus Bonorum et Malorum" ("О пределах добра и зла")
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="charity">
+    <div class="container">
+        <h2>Наши цели</h2>
+
+        <div class="sep">
+            <h6>Меняй мир к лучшему</h6>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <div class="blocks-charity">
+                    <div class="image-container">
+                        <div class="element-widget-container">
+                            <div class="elementor-image">
+                                <img src="images/ch/1.jpg">
+                            </div>
+                        </div>
+                        <div class="block-charity-content">
+                            <div class="ico-container">
+                                <i class="fa-duotone fa-seedling"></i>
+                            </div>
+
+                            <h3>
+                                Lorem ipsum dolor sit amet
+                            </h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, consequuntur delectus eligendi exercitationem illum minima necessitatibus nesciunt nihil nulla odio pariatur quibusdam reprehenderit suscipit voluptate voluptatem. Iste iusto mollitia vero?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="blocks-charity">
+                    <div class="image-container">
+                        <div class="element-widget-container">
+                            <div class="elementor-image">
+                                <img src="images/ch/2.jpg">
+                            </div>
+                        </div>
+                        <div class="block-charity-content">
+                            <div class="ico-container">
+                                <i class="fa-duotone fa-handshake"></i>
+                            </div>
+
+                            <h3>
+                                Lorem ipsum dolor sit amet
+                            </h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, consequuntur delectus eligendi exercitationem illum minima necessitatibus nesciunt nihil nulla odio pariatur quibusdam reprehenderit suscipit voluptate voluptatem. Iste iusto mollitia vero?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="blocks-charity">
+                    <div class="image-container">
+                        <div class="element-widget-container">
+                            <div class="elementor-image">
+                                <img src="images/ch/3.jpg">
+                            </div>
+                        </div>
+                        <div class="block-charity-content">
+                            <div class="ico-container">
+                                <i class="fa-duotone fa-hand-holding-heart"></i>
+                            </div>
+
+                            <h3>
+                                Lorem ipsum dolor sit amet
+                            </h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, consequuntur delectus eligendi exercitationem illum minima necessitatibus nesciunt nihil nulla odio pariatur quibusdam reprehenderit suscipit voluptate voluptatem. Iste iusto mollitia vero?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+<div class="email-bg"></div>
+<div class="container">
+    <div class="row align-items-center gy-4">
+        <div class="col-sm">
+            <div>
+                <h4 class="">Присоеденяйтесь к нам</h4>
+                <p class="">Заполните анекту на вступление в ...</p>
+            </div>
+        </div>
+        <!-- end col -->
+        <div class="col-sm-auto">
+            <button class="btn btn-danger" type="button">Продолжить <i class="fa-duotone fa-arrow-right"></i></button>
+        </div>
+        <!-- end col -->
+    </div>
+</div>
+</section>
+<section class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="wrapper-img-block">
+                    <h2>
+                        О нас
+                    </h2>
+
+                    <div class="sher-body">
+                        <h6 class="sher-title">
+                            Liberté, égalité, fraternité
+                        </h6>
+                    </div>
+
+                    <div class="content-cards">
+                        <p>
+                            Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur", и занялся его поисками в классической латинской литературе. В результате он нашёл неоспоримый первоисточник Lorem Ipsum в разделах 1.10.32 и 1.10.33 книги "de Finibus Bonorum et Malorum" ("О пределах добра и зла")
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 sm-padding">
+                <ul class="about-promo">
+                    <li>
+                        <div>
+                            <h3>История</h3>
+                            <p>Корни масонства лежат в традициях средневековых каменщиков, которые строили наши соборы и замки. Предлагаем вам отправиться в путешествие во времени.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3>Организация для всех культур и слоев общества</h3>
+                            <p>Наши члены пришли из всех слоев общества, и у каждого из них есть своя уникальная история, чтобы рассказать, почему они стали масонами.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3>История</h3>
+                            <p>Корни масонства лежат в традициях средневековых каменщиков, которые строили наши соборы и замки. Предлагаем вам отправиться в путешествие во времени.</p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="news">
+    <div class="container">
+        <div class="sep">
+            <h6>Latest news </h6>
+        </div>
+        <div class="itc-slider" data-autoplay="false" data-interval="5000" data-loop="true" data-refresh="true"
+             data-slider="itc-slider">
+            <div class="itc-slider__wrapper">
+                <div class="itc-slider__items">
+
+                    <div class="itc-slider__item"><!-- Начало 1 слайда -->
+                        <div class="card">
+                            <header class="card__header">
+                                <img alt="..." class="card__img" height="250" loading="lazy"
+                                     src="images/ch/blog-1.jpg" width="350">
+                                <span class="card__section">События сообщества</span>
+                            </header>
+                            <footer class="card__footer">
+                                <i class="fa-light fa-clock"></i>
+                                <span class="card__author">2023 May 07</span>
+                                <svg class="card__icon">
+                                    <i class="fa-sharp fa-regular fa-eye"></i>
+                                </svg>
+                                <span class="card__views">1250</span>
+                            </footer>
+                            <h2 class="card__title">
+                                <a href="">Великий Восток Франции открывает празднование своего наименования</a>
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div class="itc-slider__item"><!-- Начало 1 слайда -->
+                        <div class="card">
+                            <header class="card__header">
+                                <img alt="..." class="card__img" height="250" loading="lazy"
+                                     src="images/ch/blog-1.jpg" width="350">
+                                <span class="card__section">События сообщества</span>
+                            </header>
+                            <footer class="card__footer">
+                                <i class="fa-light fa-clock"></i>
+                                <span class="card__author">2023 May 07</span>
+                                <svg class="card__icon">
+                                    <i class="fa-sharp fa-regular fa-eye"></i>
+                                </svg>
+                                <span class="card__views">1250</span>
+                            </footer>
+                            <h2 class="card__title">
+                                <a href="">Великий Восток Франции открывает празднование своего наименования</a>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="itc-slider__item"><!-- Начало 1 слайда -->
+                        <div class="card">
+                            <header class="card__header">
+                                <img alt="..." class="card__img" height="250" loading="lazy"
+                                     src="images/ch/blog-1.jpg" width="350">
+                                <span class="card__section">События сообщества</span>
+                            </header>
+                            <footer class="card__footer">
+                                <i class="fa-light fa-clock"></i>
+                                <span class="card__author">2023 May 07</span>
+                                <svg class="card__icon">
+                                    <i class="fa-sharp fa-regular fa-eye"></i>
+                                </svg>
+                                <span class="card__views">1250</span>
+                            </footer>
+                            <h2 class="card__title">
+                                <a href="">Великий Восток Франции открывает празднование своего наименования</a>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="itc-slider__item"><!-- Начало 1 слайда -->
+                        <div class="card">
+                            <header class="card__header">
+                                <img alt="..." class="card__img" height="250" loading="lazy"
+                                     src="images/ch/blog-1.jpg" width="350">
+                                <span class="card__section">События сообщества</span>
+                            </header>
+                            <footer class="card__footer">
+                                <i class="fa-light fa-clock"></i>
+                                <span class="card__author">2023 May 07</span>
+                                <svg class="card__icon">
+                                    <i class="fa-sharp fa-regular fa-eye"></i>
+                                </svg>
+                                <span class="card__views">1250</span>
+                            </footer>
+                            <h2 class="card__title">
+                                <a href="">Великий Восток Франции открывает празднование своего наименования</a>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="itc-slider__item"><!-- Начало 1 слайда -->
+                        <div class="card">
+                            <header class="card__header">
+                                <img alt="..." class="card__img" height="250" loading="lazy"
+                                     src="images/ch/blog-1.jpg" width="350">
+                                <span class="card__section">События сообщества</span>
+                            </header>
+                            <footer class="card__footer">
+                                <i class="fa-light fa-clock"></i>
+                                <span class="card__author">2023 May 07</span>
+                                <svg class="card__icon">
+                                    <i class="fa-sharp fa-regular fa-eye"></i>
+                                </svg>
+                                <span class="card__views">1250</span>
+                            </footer>
+                            <h2 class="card__title">
+                                <a href="">Великий Восток Франции открывает празднование своего наименования</a>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="itc-slider__item"><!-- Начало 1 слайда -->
+                        <div class="card">
+                            <header class="card__header">
+                                <img alt="..." class="card__img" height="250" loading="lazy"
+                                     src="images/ch/blog-1.jpg" width="350">
+                                <span class="card__section">События сообщества</span>
+                            </header>
+                            <footer class="card__footer">
+                                <i class="fa-light fa-clock"></i>
+                                <span class="card__author">2023 May 07</span>
+                                <svg class="card__icon">
+                                    <i class="fa-sharp fa-regular fa-eye"></i>
+                                </svg>
+                                <span class="card__views">1250</span>
+                            </footer>
+                            <h2 class="card__title">
+                                <a href="">Великий Восток Франции открывает празднование своего наименования</a>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="itc-slider__item"><!-- Начало 1 слайда -->
+                        <div class="card">
+                            <header class="card__header">
+                                <img alt="..." class="card__img" height="250" loading="lazy"
+                                     src="images/ch/blog-1.jpg" width="350">
+                                <span class="card__section">События сообщества</span>
+                            </header>
+                            <footer class="card__footer">
+                                <i class="fa-light fa-clock"></i>
+                                <span class="card__author">2023 May 07</span>
+                                <svg class="card__icon">
+                                    <i class="fa-sharp fa-regular fa-eye"></i>
+                                </svg>
+                                <span class="card__views">1250</span>
+                            </footer>
+                            <h2 class="card__title">
+                                <a href="">Великий Восток Франции открывает празднование своего наименования</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="itc-slider__btn itc-slider__btn_prev"></button>
+            <button class="itc-slider__btn itc-slider__btn_next"></button>
+    </div>
+</section>
+
+
+<footer class="footer-section">
+    <div class="footer-mask">
+    </div>
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fa-light fa-map-location"></i>
+                        <div class="cta-text">
+                            <h4>Штаб-квартира</h4>
+                            <span>Tbilisi, Georgia, 165 str</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fa-light fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>
+                                Контактный номер
+                            </h4>
+                            <span><a href="tel:+123-456-7890">+123-456-7890</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fa-light fa-envelope"></i>
+                        <div class="cta-text">
+                            <h4>
+                                E-mail
+                            </h4>
+                            <span><a href="mailto:info@yoursite.com?subject=Feedback&amp;body=Message">
+                            info@yoursite.com
+                        </a>
+                                </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html">
+                                <img src="images/footer.png" class="img-fluid" alt="logo">
+                            </a>
+                        </div>
+                        <div class="footer-text">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab cumque incidunt iusto
+                                nam, nemo quae quasi quos voluptatem! Debitis praesentium quae suscipit! Atque aut eum
+                                in non nulla, pariatur!
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Полезные ссылки</h3>
+                        </div>
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Что такое масоны?</a></li>
+                            <li><a href="#">Как с нами связатся?</a></li>
+                            <li><a href="#">Стать масоном</a></li>
+                            <li><a href="#">Последние новости</a></li>
+                            <li><a href="#">События ложи</a></li>
+                            <li><a href="#">Расписание мероприятий</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Новостная рассылка</h3>
+                        </div>
+                        <div class="footer-text mb-25">
+                            <p>
+                                Подпишитесь на нашу рассылку, чтобы получать наши последние обновления и новости.
+                            </p>
+                        </div>
+                        <div class="subscribe-form">
+                            <form action="#">
+                                <input type="text" placeholder="Ваш e-mail адрес">
+                                <button><i class="fa-light fa-paper-plane-top"></i></button>
+                            </form>
+                        </div>
+
+                        <div class="footer-social-icon mt-4">
+                            <span>Наши социальные сети</span>
+                            <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                            <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2023. Все права защищены.</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Что такое масонство?</a></li>
+                            <li><a href="#">Стать масоном</a></li>
+                            <li><a href="#">Связатся с нами</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<div id="top" class="scroll-to-target scroll-to-top" style="display: inline;"><i class="fa fa-angle-up"></i></div>
+
+<div class="follow-cursor"></div>
+<script>
+    var top_show = 50; // В каком положении полосы прокрутки начинать показ кнопки "Наверх"
+    var delay = 900; // Задержка прокрутки
+    $(document).ready(function () {
+        $(window).scroll(function () { // При прокрутке попадаем в эту функцию
+            /* В зависимости от положения полосы прокрукти и значения top_show, скрываем или открываем кнопку "Наверх" */
+            if ($(this).scrollTop() > top_show) $('#top').fadeIn();
+            else $('#top').fadeOut();
+        });
+        $('#top').click(function () { // При клике по кнопке "Наверх" попадаем в эту функцию
+            /* Плавная прокрутка наверх */
+            $('body, html').animate({
+                scrollTop: 0
+            }, delay);
+        });
+    });
+    if (window.RS_MODULES === undefined) window.RS_MODULES = {};
+    if (RS_MODULES.modules === undefined) RS_MODULES.modules = {};
+    RS_MODULES.modules["revslider11"] = {
+        once: RS_MODULES.modules["revslider11"] !== undefined ? RS_MODULES.modules["revslider11"].once : undefined,
+        init: function () {
+            window.revapi1 = window.revapi1 === undefined || window.revapi1 === null || window.revapi1.length === 0 ? document.getElementById("rev_slider_1_1") : window.revapi1;
+            if (window.revapi1 === null || window.revapi1 === undefined || window.revapi1.length == 0) {
+                window.revapi1initTry = window.revapi1initTry === undefined ? 0 : window.revapi1initTry + 1;
+                if (window.revapi1initTry < 20) requestAnimationFrame(function () {
+                    RS_MODULES.modules["revslider11"].init()
+                });
+                return;
+            }
+            window.revapi1 = jQuery(window.revapi1);
+            if (window.revapi1.revolution == undefined) {
+                revslider_showDoubleJqueryError("rev_slider_1_1");
+                return;
+            }
+            revapi1.revolutionInit({
+                revapi: "revapi1",
+                sliderLayout: "fullscreen",
+                visibilityLevels: "1240,1024,778,480",
+                gridwidth: 1600,
+                gridheight: 1000,
+                spinner: "spinner0",
+                perspectiveType: "local",
+                responsiveLevels: "1240,1024,778,480",
+                progressBar: {disableProgressBar: true},
+                navigation: {
+                    mouseScrollNavigation: false,
+                    onHoverStop: false,
+                    touch: {
+                        touchenabled: true,
+                        touchOnDesktop: true
+                    },
+                    bullets: {
+                        enable: true,
+                        tmp: "",
+                        style: "hephaistos",
+                        hide_onmobile: true,
+                        hide_under: 768,
+                        v_offset: 100,
+                        space: 16
+                    }
+                },
+                viewPort: {
+                    global: false,
+                    globalDist: "-200px",
+                    enable: false,
+                    visible_area: "20%"
+                },
+                fallbacks: {
+                    allowHTML5AutoPlayOnAndroid: true
+                },
+            });
+
+        }
+    } // End of RevInitScript
+    if (window.RS_MODULES.checkMinimal !== undefined) {
+        window.RS_MODULES.checkMinimal();
+    }
+    ;
+</script>
+
+<script src="js/header.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        centeredSlides: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+</script>
+</body>
+</html>

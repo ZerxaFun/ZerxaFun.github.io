@@ -1,0 +1,155 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 50; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+
+    .modal-header {
+      padding: 20px 15px;
+
+      .close {
+        color: #555;
+        float: right;
+        font-size: 2em;
+        padding: 15px;
+        font-weight: bold;
+      }
+
+      h2 {
+        font-weight: 300;
+        padding: 15px 0;
+        color: black;
+        font-size: 1.6em;
+      }
+
+      p {
+        font-size: 0.9em;
+        padding: 10px 0 20px 0;
+      }
+    }
+
+    .modal-body {
+      padding: 0px 15px 10px;
+
+      p {
+        padding: 15px 0 0px 0;
+        label {
+          span {
+            input {
+              border-radius: 2px;
+              border: 1px solid #ebecec;
+              padding: 6px 12px;
+              background: #f7fafb;
+              width: 100%;
+              height: 34px;
+              color: #555;
+              -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+              box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+              -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+              transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+              font-size: 14px;
+              line-height: 1.428571429;
+              display: block;
+              vertical-align: middle;
+
+              &:focus {
+                  box-shadow: 0 1px 1px rgb(0 0 0 / 2%) inset;
+                  border-color: #999999;
+              }
+            }
+
+            textarea {
+              overflow: hidden;
+              padding-top: 10px;
+              border-radius: 2px;
+              box-shadow: none;
+              border: 1px solid #ebecec;
+              padding: 6px 12px;
+              background: #f7fafb;
+              width: 100%;
+              height: 150px;
+              color: #555;
+              -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+              -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+              transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+              font-size: 14px;
+              line-height: 1.428571429;
+              display: block;
+              vertical-align: middle;
+              &:focus {
+                box-shadow: 0 1px 1px rgb(0 0 0 / 2%) inset;
+                border-color: #999999;
+              }
+            }
+          }
+        }
+        input.wpcf7-submit {
+          width: 126px;
+          @include button-classic;
+        }
+      }
+    }
+  }
+
+
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {
+      top: -300px;
+      opacity: 0
+    }
+    to {
+      top: 0;
+      opacity: 1
+    }
+  }
+
+  @keyframes animatetop {
+    from {
+      top: -300px;
+      opacity: 0
+    }
+    to {
+      top: 0;
+      opacity: 1
+    }
+  }
+
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+}
